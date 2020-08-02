@@ -5,7 +5,8 @@ app:
   cpu:
     limits: 500m
     requests: 100m
-  replicas: 10
+  minReplicas: 10
+  maxReplicas: 30
   scale:
     cpuUtilization: 50  
     memoryUtilization: 60
