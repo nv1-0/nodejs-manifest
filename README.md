@@ -64,7 +64,7 @@ spec:
     spec:
       containers:
       - name: node-js
-        image: node
+        image: aws_account_id.dkr.ecr.us-west-2.amazonaws.com/nodejs-test:latest
         ports:
         - containerPort: 3000
         resources:
