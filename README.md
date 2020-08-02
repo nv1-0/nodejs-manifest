@@ -86,6 +86,7 @@ spec:
     kind: Deployment
     name: node-js
   minReplicas: 10
+  maxReplicas: 30
   metrics:
   - type: Resource
     resource:
